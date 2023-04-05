@@ -5,7 +5,7 @@ import Router from 'next/router';
 
 
 
-const Home = () => {
+const Navbar = () => {
 
   return (
     <>
@@ -33,17 +33,15 @@ const Home = () => {
             >
               Buscar
             </button>
-            <button className="bg-white  text-gray-800 font-medium py-2 px-4 rounded">
-              <Link href="/register">Register</Link> 
-            </button>
-            <button className="bg-white mx-2 text-gray-800 font-medium py-2 px-4 rounded">
-            <Link href="/login">Log in</Link> 
-            </button>
-          </form>
+            <Link href="/register" replace>
+              <button>Register</button>
+            </Link>
+
+          </form> 
         </div>
       </header>
     </>
   );
 };
 
-export default Home
+export default Navbar

@@ -4,7 +4,7 @@ import Router from 'next/router';
 
 
 
-const Home = () => {
+const HomeB = () => {
 
   return (
     <>
@@ -49,4 +49,4 @@ const Home = () => {
   );
 };
 
-export default Home
+export default HomeB
