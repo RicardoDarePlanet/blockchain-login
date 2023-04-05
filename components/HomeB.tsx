@@ -15,7 +15,7 @@ const HomeB = () => {
 
             <div className="bg-white shadow-lg rounded-lg">
               <div className="h-48 bg-gray-400 rounded-t-lg overflow-hidden">
-                <Image src="/card-image-1.jpg" alt="Card Image" layout="fill" objectFit="cover" />
+                {/* <Image src="/card-image-1.jpg" alt="Card Image" layout="fill" objectFit="cover" /> */}
               </div>
               <div className="px-4 py-4">
                 <h3 className="text-lg font-medium text-gray-900">NFT 1</h3>
@@ -25,7 +25,7 @@ const HomeB = () => {
 
             <div className="bg-white shadow-lg rounded-lg">
               <div className="h-48 bg-gray-400 rounded-t-lg overflow-hidden">
-                <Image src="/card-image-2.jpg" alt="Card Image" layout="fill" objectFit="cover" />
+                {/* <Image src="/card-image-2.jpg" alt="Card Image" layout="fill" objectFit="cover" /> */}
               </div>
               <div className="px-4 py-4">
                 <h3 className="text-lg font-medium text-gray-900">NFT 2</h3>
@@ -35,7 +35,7 @@ const HomeB = () => {
 
             <div className="bg-white shadow-lg rounded-lg">
               <div className="h-48 bg-gray-400 rounded-t-lg overflow-hidden">
-                <Image src="/card-image-3.jpg" alt="Card Image" layout="fill" objectFit="cover" />
+                {/* <Image src="/card-image-3.jpg" alt="Card Image" layout="fill" objectFit="cover" /> */}
               </div>
               <div className="px-4 py-4">
                 <h3 className="text-lg font-medium text-gray-900">NFT 3</h3>

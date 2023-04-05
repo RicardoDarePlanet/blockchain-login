@@ -21,23 +21,22 @@ const Navbar = () => {
         </div>
 
         <div className="max-w-screen-md w-full flex justify-end px-4">
-          <form>
-            <input
-              type="text"
-              placeholder="Buscar..."
-              className="py-2 px-4 rounded-md bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-600"
-            />
-            <button
-              type="submit"
-              className="py-2 px-4 ml-2 mx-2 rounded-md bg-blue-600 text-white hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-600"
-            >
-              Buscar
-            </button>
-            <Link href="/register" replace>
-              <button>Register</button>
-            </Link>
-
-          </form> 
+          <input
+            type="text"
+            placeholder="Buscar..."
+            className="py-2 px-4 rounded-md bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-600"
+          />
+          <button
+            type="submit"
+            className="py-2 px-4 ml-2 rounded-md bg-blue-600 text-white hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-600"
+          >
+            Buscar
+          </button>
+          <button
+            type="submit"
+            className="py-2 px-4 ml-2 rounded-md bg-blue-600 text-white hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-600">
+            <Link href={'/login'}>Log in</Link>
+          </button>
         </div>
       </header>
     </>
