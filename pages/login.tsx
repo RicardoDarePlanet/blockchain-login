@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import { useState } from 'react'
+import LoginMetamask from '@/components/LoginMetamask'
 
 
 export default function Login() {
@@ -52,6 +53,7 @@ export default function Login() {
           >
             Iniciar sesión
           </button>
+          <LoginMetamask></LoginMetamask>
           <div className="mt-8">
             <Link href="/register" className="text-indigo-500 hover:underline">
               ¿No tienes una cuenta? Regístrate aquí
